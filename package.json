@@ -1,0 +1,20 @@
+{
+  "name": "nubes-mea",
+  "version": "0.0.1",
+  "description": "Private Cloud",
+  "homepage": "https://github.com/dysback/nubes-mea#readme",
+  "bugs": {
+    "url": "https://github.com/dysback/nubes-mea/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dysback/nubes-mea.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": "Damir Zelenika <damir.zelenika@tutamail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
