@@ -9,10 +9,10 @@ return [
     'MCT_DB_PASSWORD' => 'Sys49152',
     'MCT_LOG_LEVEL' => 'DEBUG',
     'APPLICATION_NAME' => 'NubesMea',
-    'API_NAMESPACE' => 'NubesMea',
+    'API_NAMESPACE' => '\Dysback\NubesMea\Api',
     'LOGGER' => [
         'LOG_LEVEL' => 'DEBUG',
-        'LOG_FILE_PATH' => BASE_PATH . 'logs/api.log',
+        'LOG_FILE_PATH' => BASE_PATH . 'logs/api_',
     ],
 
 ];
