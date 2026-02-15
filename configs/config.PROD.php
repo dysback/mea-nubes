@@ -10,5 +10,9 @@ return [
     'MCT_LOG_LEVEL' => 'DEBUG',
     'APPLICATION_NAME' => 'NubesMea',
     'API_NAMESPACE' => 'NubesMea',
+    'LOGGER' => [
+        'LOG_LEVEL' => 'DEBUG',
+        'LOG_FILE_PATH' => BASE_PATH . 'logs/api.log',
+    ],
 
 ];
