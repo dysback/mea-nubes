@@ -2,3 +2,7 @@
 /.vscode/
 /composer.lock
 /logs/
+.env
+/configs/*PROD*
+/configs/*DEV*
+/tasks

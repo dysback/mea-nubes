@@ -7,6 +7,7 @@ use Dysback\Ogo\Logger as Logger;
 use Dysback\Ogo\Router as Router;
 use Dysback\Ogo\App as App;
 use Dysback\Ogo\Config as Config;
+use Dysback\Ogo\Database\MySqlDatabase;
 
 $app = App::initialize(
     [BASE_PATH . 'configs/config.' . ENVIRONMENT . '.php'],
@@ -21,6 +22,8 @@ $logger = new Logger\FileLogger($app);
 $app->setLogger($logger);
 $logger->log('Logger working', Logger\LogLevel::DEBUG, 'APIPI');
 
+$database = new MySqlDatabase($app);
+$app->setDatabase($database);
 
 $router = new Router\ApiRouter($app);
 $app->setRouter($router);
