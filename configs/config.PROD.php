@@ -10,9 +10,14 @@ return [
     'MCT_LOG_LEVEL' => 'DEBUG',
     'APPLICATION_NAME' => 'NubesMea',
     'API_NAMESPACE' => '\Dysback\NubesMea\Api',
+    'APP_NAMESPACE' => '\Dysback\NubesMea\App',
+    'VIEWS_FOLDER' => BASE_PATH . 'src/App/Views/',
     'LOGGER' => [
         'LOG_LEVEL' => 'DEBUG',
         'LOG_FILE_PATH' => BASE_PATH . 'logs/api_',
     ],
 
 ];
+
+
+
